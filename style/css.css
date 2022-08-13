@@ -1,0 +1,164 @@
+body{
+    background: linear-gradient(to right, #523961, #3b234a , #000000);
+}
+
+header{
+    width: 100%;
+    height: 100%;
+
+}
+
+#instagram{
+    color: #000000;
+    text-align: center;
+}
+
+#github{
+    color: #000000;
+    text-align: center;
+}
+
+.banner{
+    padding-top: 5%;
+    margin-left: 3%;
+    animation: zoom 10s;
+    padding-top: 8%;
+    
+}
+
+.banner h1{
+    color: #fff;
+    margin-top: -1%;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    
+}
+
+.banner h6{
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+@keyframes zoom {
+    0% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.imgp{
+    width: 30%;
+    height: 30%;
+    margin-left: 60%;
+}
+
+.container1{  
+    width: 60%;
+    height: 33rem;
+    margin-left: 38%;
+}
+
+.titulo{
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-align: right;
+    margin-right: 5%;
+    margin-top: 5%;
+    
+}
+
+.imgp2{
+    width: 40%;
+    height: 40%;
+    margin-top: -50%;
+    margin-left: 1%;
+}
+
+.txtsobre   {
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-align: justify;
+    margin-left: 10%;
+    padding-right: 5%;
+}
+
+.container2{ 
+    width: 100%;
+    height: 35rem;
+}
+
+.tituloP{
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2;
+    text-align: center;
+    padding-bottom: 1%;
+
+}
+
+.mario{
+    width: 25%;
+    height: 28rem;
+    margin-left: 4%;
+    border-radius: 10%;
+}
+
+.github{
+    width: 25%;
+    height: 28rem;
+    margin-left: 7%;
+    border-radius: 10%;
+}
+
+.pjbreve{
+    width: 25%;
+    height: 28rem;
+    margin-left: 7%;
+    border-radius: 10%;
+}
+
+.tituloH{
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2;
+    margin-left: 3%;
+}
+
+footer{
+    color: #000000;
+    text-align: center;
+    background-color: #fff;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.insLg{
+    width: 1rem;
+    height: 1rem;
+}
+
+.gitlg{
+    width: 1rem;
+    height: 1rem;
+}
+
+.conteudo{
+    margin-left: 12%;
+    display: flex;
+    width: 25%;
+}
+
+.card{
+    flex: 0 0 100%;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.titulop{
+    text-align: center;
+    color: #fff;
+    margin-top: -1%;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
