@@ -162,3 +162,8 @@ footer a{
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
+@media(max-width 1200px){
+    .container1{
+        width: 1200px;
+    }
+}
