@@ -55,7 +55,7 @@ header{
 
 .container1{  
     width: 90%;
-    height: 33rem;
+    height: 53rem;
     margin-left: 3%;
 }
 
@@ -67,11 +67,9 @@ header{
     
 }
 
-.imgp2{
-    width: 40%;
-    height: 40%;
-    margin-top: 80%;
-    margin-left: 0%;
+.imgp2{ 
+    width: 0%;
+    height: 0%;
 }
 
 .txtsobre   {
@@ -222,8 +220,8 @@ footer a{
     }
     
     .txtsobre{
-        width: 70%;
-        margin-left: 35%;
+        width: 60%;
+        margin-left: 40%;
         text-align: justify;
         text-shadow: black 0.1em 0.1em 0.2em;   
     }
@@ -231,13 +229,13 @@ footer a{
     .imgp2{
         width: 30%;
         height: 30%;
-        margin-top: -50%;
+        margin-top: -90%;
         margin-left: 3%;
     }
     
     .container3{
-        margin-top: 10rem;
         margin-left: 3%;
+        margin-top: -10rem;
     }
 
     .game-board{
