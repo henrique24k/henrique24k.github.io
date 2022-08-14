@@ -153,8 +153,29 @@ header{
 
 .card{
     flex: 0 0 100%;
-    padding: 30px;
+    padding: 5%;
     border-radius: 30px;
+}
+
+.game-board{
+    background: linear-gradient(#87CEEB, #E0F6FF);
+    border-radius: 3%;
+}
+
+.game{
+    font-size: 1rem;
+    text-align: center;
+    color: #181619;
+    margin-top: -1%;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.tBreve{
+    font-size: 1rem;
+    text-align: center;
+    color: #181619;
+    margin-top: -1%;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .titulop{
@@ -162,6 +183,26 @@ header{
     color: #fff;
     margin-top: -1%;
     text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.marioJump{
+    width: 100%;
+    opacity: 1;
+}
+
+.marioJump:hover{
+    border-radius: 3%;
+    opacity: 0.5 ;
+}
+
+.emBreve{
+    width: 100%;
+    border-radius: 3%;
+}
+
+.emBreve:hover{
+    border-radius: 3%;
+    opacity: 0.5 ;
 }
 
 footer{
@@ -201,4 +242,45 @@ footer a{
         margin-left: 3%;
     }
 
+    .game-board{
+        background: linear-gradient(#87CEEB, #E0F6FF);
+        border-radius: 3%;
+    }
+    
+    .game{
+        font-size: 2rem;
+        text-align: center;
+        color: #181619;
+        margin-top: -1%;
+        text-shadow: black 0.1em 0.1em 0.2em;
+    }
+
+    .tBreve{
+        font-size: 2rem;
+        text-align: center;
+        color: #181619;
+        margin-top: -1%;
+        text-shadow: black 0.1em 0.1em 0.2em;
+    
+    }
+
+    .marioJump{
+        width: 100%;
+        opacity: 1;
+    }
+    
+    .marioJump:hover{
+        border-radius: 3%;
+        opacity: 0.5 ;
+    }
+    
+    .emBreve{
+        width: 100%;
+        border-radius: 3%;
+    }
+    
+    .emBreve:hover{
+        border-radius: 3%;
+        opacity: 0.5 ;
+    }
 }
