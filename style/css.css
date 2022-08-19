@@ -158,14 +158,13 @@ header{
     border-radius: 3%;
 }
 
-.game{
-    font-size: 1rem;
-    text-align: center;
-    color: #181619;
-    margin-top: -1%;
+.bg-pokedex{
+    background: linear-gradient(#87CEEB, #E0F6FF);
+    border-radius: 3%;
+    height: 100%;
 }
 
-.tBreve{
+.tpj{
     font-size: 1rem;
     text-align: center;
     color: #181619;
@@ -185,6 +184,17 @@ header{
 }
 
 .marioJump:hover{
+    border-radius: 3%;
+    opacity: 0.5 ;
+}
+
+.pokedex{
+    width: 50%;
+    margin-left: 2rem;
+    margin-top: 15%;
+}
+
+.pokedex:hover{
     border-radius: 3%;
     opacity: 0.5 ;
 }
@@ -265,6 +275,12 @@ footer a{
     .marioJump:hover{
         border-radius: 3%;
         opacity: 0.5 ;
+    }
+
+    .pokedex{
+        width: 50%;
+        margin-left: 5rem;
+        margin-top: 10%;
     }
     
     .emBreve{
