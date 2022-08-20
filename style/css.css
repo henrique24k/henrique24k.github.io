@@ -158,8 +158,8 @@ header{
     border-radius: 3%;
 }
 
-.bg-pokedex{
-    background: linear-gradient(#87CEEB, #E0F6FF);
+.bg-relogio{
+    background: linear-gradient(#89a194, #000);
     border-radius: 3%;
     height: 100%;
 }
@@ -188,13 +188,13 @@ header{
     opacity: 0.5 ;
 }
 
-.pokedex{
-    width: 50%;
-    margin-left: 2rem;
+.imgRelogio{
+    width: 90%;
+    margin-left: 0.3rem;
     margin-top: 15%;
 }
 
-.pokedex:hover{
+.imgRelogio:hover{
     border-radius: 3%;
     opacity: 0.5 ;
 }
@@ -277,10 +277,15 @@ footer a{
         opacity: 0.5 ;
     }
 
-    .pokedex{
-        width: 50%;
-        margin-left: 5rem;
-        margin-top: 10%;
+    .imgRelogio{
+        width: 90%;
+        margin-left: 1rem;
+        margin-top: 15%;
+    }
+    
+    .imgRelogio:hover{
+        border-radius: 3%;
+        opacity: 0.5 ;
     }
     
     .emBreve{
